@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="./js/index.js"></script>
+    <script src="./app.js"></script>
+
+    <title>Mongo Scraper</title>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg  bg-light" id="nb">
+    <a class="navbar-brand" href="/">Mongo News Scraper</a>
+      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarLinks"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarLinks">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="saved.html">Saved Articles</a>
+          </li>
+          <li class="nav-item">
+            <a href="/scrape" class="btn btn-danger scrape-new">Scrape New Articles</a>
+          </li>
+        </ul>
+            
+      </div>
+    </nav>
+
+
+    <div id="target">
+      <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+          <h1>News Scraper</h1>
+          <h2>New York Times</h2> 
+          <br>    
+          <h3> Click the headline to read the full article</h3>
+        </div>
+      </div>
+      <div class="container" id="articles-area"> </div>
+      <div class="container" id="notes"></div>
+
+</body>
+
+</html>

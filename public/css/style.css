@@ -1,0 +1,40 @@
+h1,
+h2{
+    font-family: 'Limelight', cursive;
+    font-weight: bolder;
+}
+h1{
+    font-size: 60px;
+}
+h3{
+    font-family: 'Limelight', cursive;
+    color: #007bff;  
+}
+h4{
+    color: seashell;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + #main-content {
+  padding-top: 60px;
+}
+p:hover { 
+    color: rgb(60, 231, 55);
+    cursor: pointer;
+  }
+  input{
+      float: right;
+      width: 20%;
+  }
+  p{
+      width: 70%;
+  }
+  .save{
+      float: right;
+      background-color: #dc3545;
+      border-color: #dc3545;
+      color: #fcf7f8;
+  }
